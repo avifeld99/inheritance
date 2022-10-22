@@ -12,7 +12,7 @@ public class Vehicle {
 
     // This will be executed first
     public Vehicle(String typeOfVehicle) {
-        //this();
+        //this("car");
         this.typeOfVehicle = typeOfVehicle;
         System.out.println("Constructor Vehicle met parameters");
 

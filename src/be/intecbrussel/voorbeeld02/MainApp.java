@@ -4,7 +4,9 @@ public class MainApp {
 
     public static void main(String[] args) {
 
-        Car car = new Car("Car");
+        //Car car = new Car();
+
+        Vehicle vehicle = new Vehicle();
 
 
     }

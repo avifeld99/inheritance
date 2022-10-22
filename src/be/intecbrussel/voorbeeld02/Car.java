@@ -13,6 +13,7 @@ public class Car extends Vehicle {
     }
     // This will be executed third
     public Car(String typeOfVehicle) {
+        // this("car"); -> not possible, because 'this' and 'super' must be first statement
         super(typeOfVehicle);
         System.out.println("Car constructor");
     }
